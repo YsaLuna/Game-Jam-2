@@ -12,3 +12,4 @@ res://Menu/control.gd
 res://creditos/creditos.tscn
 res://intro/introduccion.tscn
 res://intro/introduccion.gd
+res://mundo.gd

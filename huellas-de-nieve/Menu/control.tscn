@@ -360,7 +360,7 @@ scale = Vector2(6.39062, 5.73437)
 sprite_frames = SubResource("SpriteFrames_jf784")
 animation = &"walk"
 autoplay = "walk"
-frame_progress = 0.384849
+frame_progress = 0.516588
 
 [node name="papa_noel" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
@@ -369,7 +369,7 @@ rotation = 0.00345241
 scale = Vector2(9.75779, 10.2986)
 sprite_frames = SubResource("SpriteFrames_g1m3c")
 autoplay = "default"
-frame_progress = 0.134844
+frame_progress = 0.266582
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0

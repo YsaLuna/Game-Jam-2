@@ -1,10 +1,11 @@
-[gd_scene load_steps=36 format=3 uid="uid://b8dfj1moggmib"]
+[gd_scene load_steps=37 format=3 uid="uid://b8dfj1moggmib"]
 
 [ext_resource type="Script" path="res://Menu/control.gd" id="1_h7dkd"]
 [ext_resource type="Texture2D" uid="uid://cwtrh70qcwms6" path="res://Menu/fin.png" id="2_nde34"]
 [ext_resource type="Texture2D" uid="uid://bw538l4r7d7c3" path="res://Assets/gato(principal)/navidad/Idle2Cattt.png" id="4_m2r5x"]
 [ext_resource type="FontFile" uid="uid://rnd1bcgndvly" path="res://intro/PixelifySans-SemiBold.ttf" id="5_lq4s7"]
 [ext_resource type="Texture2D" uid="uid://ctrb04s2nffkc" path="res://Assets/gato(principal)/navidad/JumpCatttt.png" id="5_xojyb"]
+[ext_resource type="AudioStream" uid="uid://wxejvh23hjsn" path="res://intro/INTRO NAVIDEÑO.mp3" id="6_jumlw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8i0hu"]
 atlas = ExtResource("4_m2r5x")
@@ -266,11 +267,17 @@ frame_progress = 0.732261
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 84.0
-offset_top = 24.0
-offset_right = 1093.0
-offset_bottom = 109.0
+offset_left = 99.0
+offset_top = -12.0
+offset_right = 1119.0
+offset_bottom = 117.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("5_lq4s7")
 theme_override_font_sizes/font_size = 52
-text = "Ysamar Balcazar Rios (Desarrolladora)"
+text = "(Desarrolladora) Ysamar Balcazar Rios "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_jumlw")
+autoplay = true
