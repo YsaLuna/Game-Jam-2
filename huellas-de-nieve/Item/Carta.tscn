@@ -1,0 +1,52 @@
+[gd_scene load_steps=8 format=3 uid="uid://dd3akgbupyw02"]
+
+[ext_resource type="Script" path="res://Item/carta.gd" id="1_027pw"]
+[ext_resource type="Texture2D" uid="uid://b55hxpjyunnn5" path="res://Item/Festive Frenzy.png" id="1_vo8ma"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hn23g"]
+atlas = ExtResource("1_vo8ma")
+region = Rect2(0, 0, 20, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3v66m"]
+atlas = ExtResource("1_vo8ma")
+region = Rect2(20, 0, 20, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6v71w"]
+atlas = ExtResource("1_vo8ma")
+region = Rect2(40, 0, 20, 20)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_87fmq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hn23g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3v66m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6v71w")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r7ykp"]
+size = Vector2(83.75, 71)
+
+[node name="Carta" type="Node2D"]
+script = ExtResource("1_027pw")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(47.25, 40)
+scale = Vector2(4.275, 3.8)
+sprite_frames = SubResource("SpriteFrames_87fmq")
+autoplay = "default"
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(45.125, 35.5)
+shape = SubResource("RectangleShape2D_r7ykp")

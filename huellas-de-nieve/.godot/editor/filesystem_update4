@@ -1,0 +1,14 @@
+res://Item/cartas.tscn
+res://Item/cartas.gd
+res://player/gato.tscn
+res://mundo.tscn
+res://player/player.gd
+res://prueba.tscn
+res://prueba.gd
+res://Carta.tscn
+res://Item/Carta.tscn
+res://Menu/control.tscn
+res://Menu/control.gd
+res://creditos/creditos.tscn
+res://intro/introduccion.tscn
+res://intro/introduccion.gd

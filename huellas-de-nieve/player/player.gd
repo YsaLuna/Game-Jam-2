@@ -1,9 +1,15 @@
 extends CharacterBody2D
 
+var collision_shape_2d: CollisionShape2D
+
 # Velocidad de movimiento y gravedad del personaje.
-@export_range(10, 1000, 10) var SPEED = 400.0
-@export var jump_force = 700.0
+@export_range(10, 1000, 10) var SPEED = 500.0
+@export var jump_force = 600.0
 @export var gravity = 900.0
+
+# Contador de saltos disponibles.
+var jump_count = 0
+const MAX_JUMPS = 2 # Número máximo de saltos permitidos.
 
 # Referencia al nodo que contiene las animaciones del personaje.
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
@@ -26,11 +32,16 @@ func _physics_process(delta):
 		animated_sprite_2d.play("idle")
 	
 	# Salto.
-	if Input.is_action_just_pressed("jump") and is_on_floor():
+	if Input.is_action_just_pressed("jump") and jump_count < MAX_JUMPS:
 		velocity.y = -jump_force
 		animated_sprite_2d.play("jump")
+		jump_count += 1
 	
-	# Aplicar movimiento (sin asignar el resultado de move_and_slide).
+	# Restablecer el contador de saltos cuando el personaje toque el suelo.
+	if is_on_floor():
+		jump_count = 0
+	
+	# Aplicar movimiento.
 	move_and_slide()
 
 	# Detectar si está cayendo (para animaciones opcionales).

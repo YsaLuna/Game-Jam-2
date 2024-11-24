@@ -1,0 +1,14 @@
+AnimatedSprite2D
+AudioStreamPlayer
+Label
+TextureRect
+Button
+VBoxContainer
+ColorRect
+AudioStreamPlayer2D
+Node
+CollisionShape2D
+Area2D
+Node2D
+AnimationPlayer
+Sprite2D
