@@ -1,12 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1732437555
+::res://::1732456932
 ejecutable.apple-touch-icon.png::CompressedTexture2D::3133532022774694854::1732437555::1732437606::1::::<><>::
 ejecutable.icon.png::CompressedTexture2D::2013225433828815454::1732437555::1732437606::1::::<><>::
 ejecutable.png::CompressedTexture2D::1242193103885221984::1732437555::1732437606::1::::<><>::
-export_presets.cfg::TextFile::-1::1732422192::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1732437841::0::1::::<><>::
 icon.svg::CompressedTexture2D::4225698330577432296::1732422192::1732422352::1::::<><>::
-mundo.tscn::PackedScene::3242629857224140327::1732437313::0::1::::<><>::res://mundo.gd<>uid://oxlp6exy247h::::res://Assets/tiles/BG/BG.png<>uid://y1hcrl121wtu::::res://Assets/tiles/Object/Objetos.webp<>uid://bbmo3f0vwi2ck::::res://music/MUSICA NAVIDEÑA (Sin Copyright) 🎄 #3.mp3<>uid://dd3akgbupyw02::::res://Item/Carta.tscn<>uid://dxch6a6gmncbu::::res://Assets/santa_sheets/idle_sheet.png<>uid://d36gyfeqow8jj::::res://Menu/PixelifySans-Regular.ttf<>uid://ddmn8q7grv6bo::::res://player/gato.tscn<>uid://dken44j6httvc::::res://Assets/tiles/Tiles/1-Sheet.webp
 mundo.gd::GDScript::-1::1732437308::0::1::::<>Node<>::
+mundo.tscn::PackedScene::3242629857224140327::1732437857::0::1::::<><>::res://mundo.gd<>uid://oxlp6exy247h::::res://Assets/tiles/BG/BG.png<>uid://y1hcrl121wtu::::res://Assets/tiles/Object/Objetos.webp<>uid://bbmo3f0vwi2ck::::res://music/MUSICA NAVIDEÑA (Sin Copyright) 🎄 #3.mp3<>uid://dd3akgbupyw02::::res://Item/Carta.tscn<>uid://dxch6a6gmncbu::::res://Assets/santa_sheets/idle_sheet.png<>uid://d36gyfeqow8jj::::res://Menu/PixelifySans-Regular.ttf<>uid://ddmn8q7grv6bo::::res://player/gato.tscn<>uid://dken44j6httvc::::res://Assets/tiles/Tiles/1-Sheet.webp
 ::res://Assets/::1732435223
 ::res://Assets/gato(principal)/::1732422192
 ::res://Assets/gato(principal)/BatmanCatFree/::1732422352
@@ -74,10 +74,10 @@ Objetos.webp::CompressedTexture2D::1738635570563757554::1732422192::1732422351::
 creditos.tscn::PackedScene::4709166698908446097::1732437412::0::1::::<><>::res://Menu/control.gd<>uid://cwtrh70qcwms6::::res://Menu/fin.png<>uid://bw538l4r7d7c3::::res://Assets/gato(principal)/navidad/Idle2Cattt.png<>uid://rnd1bcgndvly::::res://intro/PixelifySans-SemiBold.ttf<>uid://ctrb04s2nffkc::::res://Assets/gato(principal)/navidad/JumpCatttt.png<>uid://wxejvh23hjsn::::res://intro/INTRO NAVIDEÑO.mp3
 ::res://intro/::1732437313
 INTRO NAVIDEÑO.mp3::AudioStreamMP3::1591895303564741165::1732436144::1732436144::1::::<><>::
+introduccion.gd::GDScript::-1::1732435931::0::1::::<>Control<>::
 introduccion.tscn::PackedScene::4521679096742704788::1732437313::0::1::::<><>::res://intro/introduccion.gd<>uid://bw5xog7hcgoki::::res://intro/muchas gracias.png<>uid://bw538l4r7d7c3::::res://Assets/gato(principal)/navidad/Idle2Cattt.png<>uid://ctrb04s2nffkc::::res://Assets/gato(principal)/navidad/JumpCatttt.png<>uid://d36gyfeqow8jj::::res://Menu/PixelifySans-Regular.ttf
 muchas gracias.png::CompressedTexture2D::3993928433194719172::1732435713::1732435713::1::::<><>::
 PixelifySans-SemiBold.ttf::FontFile::1220275890172240778::1732435643::1732435644::1::::<><>::
-introduccion.gd::GDScript::-1::1732435931::0::1::::<>Control<>::
 ::res://Item/::1732437313
 carta.gd::GDScript::-1::1732430083::0::1::::<>Node2D<>::
 Carta.tscn::PackedScene::7427649334660751413::1732437313::0::1::::<><>::res://Item/carta.gd<>uid://b55hxpjyunnn5::::res://Item/Festive Frenzy.png
